@@ -10,6 +10,7 @@
 # then write them out to the screen. Show the total
 # as well.
 
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)
@@ -20,3 +21,7 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
+
+dice1 = rand(1..6)
+dice2 = rand(1..6)
+puts "Total is: #{dice1 * dice2}"
